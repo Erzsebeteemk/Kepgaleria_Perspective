@@ -127,7 +127,7 @@ transform: perspective(300px) rotatey(-45deg);
     text-align: center;
     margin-left: 8%;
     margin-right: 8%;
-    line-height: calc(0.1rem + 5vmin);
+    line-height: calc(0.1rem + 4vmin);
     /* line-height: 2.5rem; */
     /* margin-top: 2rem;
     margin-bottom: 1.5rem; */
@@ -141,6 +141,8 @@ transform: perspective(300px) rotatey(-45deg);
     /* border: 5px solid black; */
     width: 96vw;
     height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
     margin: 1rem auto; 
 }
 
@@ -170,8 +172,10 @@ transform: perspective(300px) rotatey(-45deg);
 .button {
     display: inline-block;
     width: 10%;
-    font-size: auto;
-    /* font-size: calc(1rem + 1.3vw); */
+    border: 0;
+    border-style: none;
+    align-items: strech;
+    font-size: calc(0.1rem + 1.3vw);
     background-color: rgb(159, 135, 126);
     /* border: 1px solid black; */
     border-radius: 8%;
@@ -218,7 +222,7 @@ transform: perspective(300px) rotatey(-45deg);
 }
 
 .alcim {
-    font-size: calc(0.1rem + 2.2vmin);
+    font-size: calc(0.1rem + 3vmin);
 }
 
 
@@ -333,21 +337,28 @@ transform: perspective(300px) rotatey(-45deg);
         height: 75vh;
     }
 }
-...........................................................*/
+................................................................................*/
 
 
 
 /* @media(orientation:portrait) Szélesség (képdoboz-szélesség), Álló képernyőnél */
 @media(orientation:portrait) {
     #kepdoboz {
+        position: relative;
         width: 94%;
         /* max-width: 100%; */
+        max-height: 70vh;
         height: unset;
+        margin-left: auto;
+        margin-right: auto;
         margin: 1rem auto;
     }
     
     .kep {
+        position: absolute;
+        bottom: calc(0.1rem - 69vh);
         max-width: 100%;
+        max-height: 70vh;
         height: unset;
         text-align: center;
         margin-left: auto;
