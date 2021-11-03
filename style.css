@@ -174,7 +174,7 @@ transform: perspective(300px) rotatey(-45deg);
     width: 10%;
     border: 0;
     border-style: none;
-    align-items: strech;
+    align-items: flex-start;
     font-size: calc(0.1rem + 1.3vw);
     background-color: rgb(159, 135, 126);
     /* border: 1px solid black; */
@@ -296,7 +296,7 @@ transform: perspective(300px) rotatey(-45deg);
 }
 
 
-/*.......................................................
+/*..................................................................................
 @media(min-width) Magasság (képdoboz-magasság), Fekvő képernyőnél
 @media(min-width:730px) {
     #kepdoboz {
@@ -344,7 +344,6 @@ transform: perspective(300px) rotatey(-45deg);
 /* @media(orientation:portrait) Szélesség (képdoboz-szélesség), Álló képernyőnél */
 @media(orientation:portrait) {
     #kepdoboz {
-        position: relative;
         width: 94%;
         /* max-width: 100%; */
         max-height: 70vh;
@@ -352,21 +351,30 @@ transform: perspective(300px) rotatey(-45deg);
         margin-left: auto;
         margin-right: auto;
         margin: 1rem auto;
+        background-color: aquamarine;
     }
     
     .kep {
-        position: absolute;
-        bottom: calc(0.1rem - 69vh);
+        display: inline-block;
+        vertical-align: middle;
         max-width: 100%;
         max-height: 70vh;
         height: unset;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        display: block;
         /* border-radius: 1%; */
         box-shadow: 0 30px 40px -20px rgba(0,0,0,0.5);
     }
+
+    .harom {
+        width: 33.33%;
+        height: 30vh;
+        background-color: #eddbf4;
+        border-radius: 5%;
+        transition: 0.5s ease-in;
+    }
+    
 
     /* .nyil {
         top: calc(0.1rem + 18vh);

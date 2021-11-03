@@ -7,13 +7,13 @@ let data0 = {
 let data1 = {
     photo: "images/WaterSkyRainbow.png",
     title: "Water Sky Rainbow",
-    description: "WaterSkyRainbow Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id orci non leo faucibus vulputate in sit amet nibh. Duis pretium, ligula eget ullamcorper aliquet, lectus elit pulvinar dolor, sed auctor massa erat sed metus."
+    description: "Water Sky Rainbow Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id orci non leo faucibus vulputate in sit amet nibh. Duis pretium, ligula eget ullamcorper aliquet, lectus elit pulvinar dolor, sed auctor massa erat sed metus."
 };
 
 let data2 = {
     photo: "images/UnityWithWholeness.png",
-    title: "Unity With Wholeness Photo by Zoltan Turcsanyi",
-    description: "UnityWithWholeness Photo by Zoltan Turcsanyi   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id orci non leo faucibus vulputate in sit amet nibh. Duis pretium, ligula eget ullamcorper aliquet, lectus elit pulvinar dolor, sed auctor massa erat sed metus."
+    title: "Unity with Wholeness Photo by Zoltan Turcsanyi",
+    description: "Unity with Wholeness Photo by Zoltan Turcsanyi   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id orci non leo faucibus vulputate in sit amet nibh. Duis pretium, ligula eget ullamcorper aliquet, lectus elit pulvinar dolor, sed auctor massa erat sed metus."
 };
 
 let data3 = {
@@ -25,13 +25,13 @@ let data3 = {
 let data4 = {
     photo: "images/YinYangBalanceFlow.jpg",
     title: "YinYang Balance Flow",
-    description: "YinYangBalanceFlow Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id orci non leo faucibus vulputate in sit amet nibh. Duis pretium, ligula eget ullamcorper aliquet, lectus elit pulvinar dolor, sed auctor massa erat sed metus."
+    description: "YinYang Balance Flow Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id orci non leo faucibus vulputate in sit amet nibh. Duis pretium, ligula eget ullamcorper aliquet, lectus elit pulvinar dolor, sed auctor massa erat sed metus."
 };
 
 let data5 = {
     photo: "images/FromLove.jpg",
     title: "From Love",
-    description: "FromLove Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id orci non leo faucibus vulputate in sit amet nibh. Duis pretium, ligula eget ullamcorper aliquet, lectus elit pulvinar dolor, sed auctor massa erat sed metus."
+    description: "From Love Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id orci non leo faucibus vulputate in sit amet nibh. Duis pretium, ligula eget ullamcorper aliquet, lectus elit pulvinar dolor, sed auctor massa erat sed metus."
 };
 
 let data6 = {
@@ -42,14 +42,14 @@ let data6 = {
 
 let data7 = {
     photo: "images/ArtOfNature.jpg",
-    title: "Art Of Nature",
-    description: "ArtOfNature Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id orci non leo faucibus vulputate in sit amet nibh. Duis pretium, ligula eget ullamcorper aliquet, lectus elit pulvinar dolor, sed auctor massa erat sed metus."
+    title: "Art of Nature",
+    description: "Art of Nature Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id orci non leo faucibus vulputate in sit amet nibh. Duis pretium, ligula eget ullamcorper aliquet, lectus elit pulvinar dolor, sed auctor massa erat sed metus."
 };
 
 let data8 = {
     photo: "images/ITWorldBSE.jpg",
     title: "IT World BSE",
-    description: "ITWorldBSE Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id orci non leo faucibus vulputate in sit amet nibh. Duis pretium, ligula eget ullamcorper aliquet, lectus elit pulvinar dolor, sed auctor massa erat sed metus."
+    description: "IT World BSE Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id orci non leo faucibus vulputate in sit amet nibh. Duis pretium, ligula eget ullamcorper aliquet, lectus elit pulvinar dolor, sed auctor massa erat sed metus."
 };
 
 let data9 = {
@@ -67,7 +67,7 @@ let data10 = {
 let data11 = {
     photo: "images/VitalLife.jpg",
     title: "Vital Life",
-    description: "VitalLife Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id orci non leo faucibus vulputate in sit amet nibh. Duis pretium, ligula eget ullamcorper aliquet, lectus elit pulvinar dolor, sed auctor massa erat sed metus."
+    description: "Vital Life Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id orci non leo faucibus vulputate in sit amet nibh. Duis pretium, ligula eget ullamcorper aliquet, lectus elit pulvinar dolor, sed auctor massa erat sed metus."
 };
 
 let data12 = {
@@ -90,8 +90,8 @@ let data14 = {
 
 let data15 = {
     photo: "images/MoonAndVenus.jpg",
-    title: "Moon And Venus",
-    description: "MoonAndVenus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id orci non leo faucibus vulputate in sit amet nibh. Duis pretium, ligula eget ullamcorper aliquet, lectus elit pulvinar dolor, sed auctor massa erat sed metus."
+    title: "Moon and Venus",
+    description: "Moon and Venus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id orci non leo faucibus vulputate in sit amet nibh. Duis pretium, ligula eget ullamcorper aliquet, lectus elit pulvinar dolor, sed auctor massa erat sed metus."
 };
 
 
