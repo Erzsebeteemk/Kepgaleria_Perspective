@@ -35,8 +35,8 @@ main {
 h1 {
     height: 7%;
     font-size: calc(0.1rem + 5.5vmin);
-    /* margin-top: 1.5rem;
-    margin-bottom: 1.5rem; */
+    /* margin-top: 1.5rem; */
+    margin-bottom: calc(0.1rem + 1.5vmin);
     /* font-size: 6rem; */
     margin: 0;
     padding: 0;
@@ -166,7 +166,7 @@ transform: perspective(300px) rotatey(-45deg);
     left: 50%;
     transform: translateX(-50%);
     /* border: 5px solid black; */
-    background-color: darkseagreen;
+    /* background-color: darkseagreen; */
 }
 
 .kep {
@@ -179,7 +179,7 @@ transform: perspective(300px) rotatey(-45deg);
     display: block;
     border-radius: 1%;
     box-shadow: 0 30px 40px -20px rgba(0,0,0,0.5);
-    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
 }
 /* képdobozban kép vége */
 
@@ -194,7 +194,7 @@ width: 100%;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: darkgreen;
+    /* background-color: darkgreen; */
 }
 
 .button {
@@ -212,9 +212,13 @@ width: 100%;
 }
 
 .nyildoboz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     position: relative;
     width: 6%;
-    background-color: rgb(235, 194, 157);
+    /* background-color: rgb(235, 194, 157); */
 
 }
 
@@ -222,7 +226,7 @@ width: 100%;
     /* top: 10%; */
     /* max-height: 90%; */
     height: 80%;
-    top: 10%;
+    /* top: 10%; */
 
     position: absolute;
     display: block;
@@ -235,7 +239,7 @@ width: 100%;
     /* background-color: rgb(253, 230, 189); */
     /* opacity: 0.7; */
     /* border-radius: 10%; */
-    background-color: rgb(255, 0, 0);
+    /* background-color: rgb(255, 0, 0); */
 }
 
 .balra {
@@ -269,12 +273,12 @@ width: 100%;
 /* indexképek flexezve*/
 #keptarvalaszto {
     height: 10%;
-    margin-top: calc(0.1rem + 1.5vh);
+    margin-top: calc(0.1rem + 2.5vh);
     /* margin-bottom: calc(0.1rem + 0.0vh); */
-    flex-wrap: wrap;
     /* flex-wrap: wrap-reverse; */
 
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
@@ -282,19 +286,19 @@ width: 100%;
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
-    background-color: darkorange;
+    /* background-color: darkorange; */
 }
 
 .thumbnail {
     display: flex;
-    width: calc(0.1rem + 2.5vw);
-    height: calc(0.1rem + 2.5vw);
+    width: calc(0.1rem + 3.5vw);
+    height: calc(0.1rem + 3.5vw);
     margin: calc(0.1rem + 0.6vw);
-    border: 2px double blue;
+    border: 1px double blue;
 
     border-radius: 6%;
-    opacity: 0.2;
-    background-color: blue;
+    opacity: 0.4;
+    /* background-color: blue; */
 }
 
 .kiskep {
@@ -305,7 +309,7 @@ width: 100%;
     height: 100%;
 
     border-radius: 1%;
-    background-color: coral;
+    /* background-color: coral; */
 }
 
 .thumbnail:hover {
@@ -404,7 +408,7 @@ width: 100%;
         justify-content: center;
         align-items: center;
 
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
     }
     
     .kep {
@@ -427,8 +431,8 @@ width: 100%;
     }
 
     .thumbnail {
-        width: calc(0.1rem + 2.5vmin);
-        height: calc(0.1rem + 2.5vmin;
+        width: calc(0.1rem + 3.5vmin);
+        height: calc(0.1rem + 4.5vmin);
     }
     
 
