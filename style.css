@@ -8,9 +8,11 @@ html {
 body {
     /* position: relative; */
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     user-select: none;
     width: 100vw;
+    height: 100vh;
     margin-left: auto;
     margin-right: auto;
 
@@ -24,13 +26,22 @@ background-attachment: fixed;
 background-size: cover;
 }
 
-
+main {
+    width: 100%;
+    height: 100%;
+}
 
 /* H1 */
 h1 {
-    font-size: 5rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    height: 7%;
+    font-size: calc(0.1rem + 5.5vmin);
+    /* margin-top: 1.5rem;
+    margin-bottom: 1.5rem; */
+    /* font-size: 6rem; */
+    margin: 0;
+    padding: 0;
+
+
     text-align: center;
     font-family: 'MonteCarlo', cursive;
 }
@@ -38,16 +49,24 @@ h1 {
 
 /* EGYMÁS MÓGÓTT */
 #egymasmogott {
+    height: 65%;
+    /* height: 65vh; */
+    /* margin: 1rem auto; */
+    /* width: 96vw; */
+
     position: relative;
-    width: 96vw;
-    height: 70vh;
-    margin: 1rem auto;
+    /* background-color: gold; */
 }
 
 
 /* #pers  saját perspective eleje */
 /* Mi alapján: https://codepen.io/HassaanALalosy/pen/PNBMVG   https://3dtransforms.desandro.com/perspective*/
 #pers {
+    height: 100%;
+    /* height: 70vh;
+    max-height: 70vh;
+    margin: 1rem auto; */
+
     /* visibility: hidden; */
     /* visibility: visible; */
     opacity: 0.0;
@@ -57,14 +76,12 @@ h1 {
     display: flex;
     /* border: 5px solid red; */
     width: 100%;
-    height: 70vh;
-    max-height: 70vh;
-    margin: 1rem auto;
 }
 
 .harom {
+    /* height: 70vh; */
+
     width: 33.33%;
-    height: 70vh;
 	background-color: #eddbf4;
 	border-radius: 5%;
 	transition: 0.5s ease-in;
@@ -137,64 +154,78 @@ transform: perspective(300px) rotatey(-45deg);
 
 /* képdobozban kép eleje */
 #kepdoboz {
+    height: 100%;
+    /* height: 65vh; */
+    /* margin: 1rem auto;  */
+    /* width: 100vw; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    text-align: center;
+    
     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     /* border: 5px solid black; */
-    width: 96vw;
-    height: 70vh;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 1rem auto; 
+    background-color: darkseagreen;
 }
 
 .kep {
-    max-width: 100%;
     height: 100%;
+    /* max-width: 100%;
     text-align: center;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
+
     display: block;
     border-radius: 1%;
     box-shadow: 0 30px 40px -20px rgba(0,0,0,0.5);
+    background-color: dodgerblue;
 }
 /* képdobozban kép vége */
 
 
 /* KEZELŐ */
 #kezelo {
+height: 8%;
+width: 100%;
+
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 90%;
     margin-left: auto;
     margin-right: auto;
+    background-color: darkgreen;
 }
 
 .button {
     display: inline-block;
-    width: 10%;
+    width: 14%;
+    padding: 1px;
     border: 0;
     border-style: none;
     align-items: flex-start;
-    font-size: calc(0.1rem + 1.3vw);
+    font-size: calc(0.1rem + 1.6vw);
     background-color: rgb(159, 135, 126);
     /* border: 1px solid black; */
-    border-radius: 8%;
+    border-radius: 18%;
     box-shadow: -1px 5px 4px 2px rgb(78, 78, 78);
 }
 
 .nyildoboz {
     position: relative;
-    width: 8%;
-    /* background-color: rgb(235, 194, 157); */
+    width: 6%;
+    background-color: rgb(235, 194, 157);
 
 }
 
 .nyil {
+    /* top: 10%; */
+    /* max-height: 90%; */
+    height: 80%;
+    top: 10%;
+
     position: absolute;
     display: block;
-    top: 10%;
-    width: 100%;
-    max-height: 90%;
     
     filter: invert(40%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(110%) contrast(1.19%);
     /* Eredeti: filter: invert(40%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(110%) contrast(119%); */
@@ -204,12 +235,12 @@ transform: perspective(300px) rotatey(-45deg);
     /* background-color: rgb(253, 230, 189); */
     /* opacity: 0.7; */
     /* border-radius: 10%; */
-    /* background-color: red; */
+    background-color: rgb(255, 0, 0);
 }
 
 .balra {
     /* margin-left: calc(0.1rem + 5vw); */
-}
+    }
 
 .jobbra {
     transform: rotate(180deg);
@@ -218,11 +249,11 @@ transform: perspective(300px) rotatey(-45deg);
 }
 
 .alcimdoboz {
-    width: 34%;
+    width: 60%;
 }
 
 .alcim {
-    font-size: calc(0.1rem + 3vmin);
+    font-size: calc(0.1rem + 2.5vmin);
 }
 
 
@@ -237,37 +268,50 @@ transform: perspective(300px) rotatey(-45deg);
 
 /* indexképek flexezve*/
 #keptarvalaszto {
+    height: 10%;
+    margin-top: calc(0.1rem + 1.5vh);
+    /* margin-bottom: calc(0.1rem + 0.0vh); */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap-reverse;
+    align-items: flex-start;
     /* border: 2px solid red; */
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: calc(0.1rem + 0.1vh);
-    margin-bottom: calc(0.1rem + 0.0vh);
+    background-color: darkorange;
 }
 
 .thumbnail {
-    width: calc(0.1rem + 3.5vw);
+    display: flex;
+    width: calc(0.1rem + 2.5vw);
     height: calc(0.1rem + 2.5vw);
     margin: calc(0.1rem + 0.6vw);
-    border: 2px double rgb(172, 44, 44);
+    border: 2px double blue;
+
     border-radius: 6%;
     opacity: 0.2;
+    background-color: blue;
 }
 
 .kiskep {
-    border-radius: 1%;
+    /* height: 100%; */
+    flex: 1;
+    border: 2px double rgb(172, 44, 44);
     width: 100%;
     height: 100%;
-    flex: 1;
+
+    border-radius: 1%;
+    background-color: coral;
 }
 
 .thumbnail:hover {
+    transform: scale(1.3);
+
     opacity: 0.9;
-    transform: scale(1.3)
 }
 
 /* Jelzi, hogy hol tartok. */
@@ -344,35 +388,47 @@ transform: perspective(300px) rotatey(-45deg);
 /* @media(orientation:portrait) Szélesség (képdoboz-szélesség), Álló képernyőnél */
 @media(orientation:portrait) {
     #kepdoboz {
-        width: 94%;
+        /* max-height: 70vh; */
+        /* margin: 1rem auto; */
+        width: 100%;
+        /* min-width: 90%; */
+        /* max-width:100%; */
         /* max-width: 100%; */
-        max-height: 70vh;
-        height: unset;
-        margin-left: auto;
-        margin-right: auto;
-        margin: 1rem auto;
+        /* height: unset; */
+        height: 100%;
+        /* max-height: 100%; */
+        /* margin-left: auto;
+        margin-right: auto; */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         background-color: aquamarine;
     }
     
     .kep {
-        display: inline-block;
-        vertical-align: middle;
+        /* vertical-align: middle; */
+        /* max-height: 70vh; */
+        width: auto;
+        min-width: 70%;
         max-width: 100%;
-        max-height: 70vh;
-        height: unset;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+        /* max-width: 100%; */
+        /* height: unset; */
+        height: auto;
+        max-height: 100%;
+        /* text-align: center; */
+        /* margin-left: auto;
+        margin-right: auto; */
+
+        display: inline-block;
         /* border-radius: 1%; */
         box-shadow: 0 30px 40px -20px rgba(0,0,0,0.5);
     }
 
-    .harom {
-        width: 33.33%;
-        height: 30vh;
-        background-color: #eddbf4;
-        border-radius: 5%;
-        transition: 0.5s ease-in;
+    .thumbnail {
+        width: calc(0.1rem + 2.5vmin);
+        height: calc(0.1rem + 2.5vmin;
     }
     
 
@@ -389,8 +445,9 @@ transform: perspective(300px) rotatey(-45deg);
     } */
     
     .thumbnail {
+        /* height: calc(0.1rem + 5.0vw);
+        margin: calc(0.1rem + 0.7vw); */
+
         width: calc(0.1rem + 6.0vw);
-        height: calc(0.1rem + 5.0vw);
-        margin: calc(0.1rem + 0.7vw);
     }
 }
