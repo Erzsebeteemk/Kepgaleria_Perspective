@@ -279,7 +279,7 @@ width: 100%;
 /* indexképek flexezve*/
 #keptarvalaszto {
     height: 10%;
-    margin-top: calc(0.1rem + 2.5vh);
+    margin-top: calc(0.1rem + 3.5vh);
     /* margin-bottom: calc(0.1rem + 0.0vh); */
     /* flex-wrap: wrap-reverse; */
 
@@ -446,7 +446,7 @@ width: 100%;
     }
 
     .nyildoboz {
-        width: 19%;
+        width: 15%;
     }
     
     .nyil {
@@ -454,7 +454,7 @@ width: 100%;
     }
 
     .alcimdoboz {
-        width: 34%;
+        width: 42%;
     }
     
 
