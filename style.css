@@ -1,11 +1,15 @@
 
 /* Betűméretre és ahhoz tartoó @media-ra: Reszponzív tipográfia (Mérei Tamás 2021.01.05.) */
 html {
+    /* background-color: #b09282; */
+
     font-size: calc(0.1rem + 0.6vmin);
     /* font-size: 6px; */
 }
 
 body {
+    background-color: #b09282;
+
     /* position: relative; */
     margin: 0;
     padding: 0;
@@ -217,7 +221,7 @@ width: 100%;
 
     position: relative;
     width: 6%;
-    /* background-color: rgb(235, 194, 157); */
+    /* background-color: blue; */
 
 }
 
@@ -231,7 +235,7 @@ width: 100%;
     display: block;
     
     /* filter: invert(40%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(110%) contrast(1.19%); */
-    /* Eredeti: filter: invert(40%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(110%) contrast(119%); */
+    /* Megj: Eredeti: filter: invert(40%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(110%) contrast(119%); */
 
     /* width: calc(1rem + 2vw); */
     /* top: calc(0.1rem + 48vh); */
@@ -255,6 +259,7 @@ width: 100%;
 
 .alcimdoboz {
     width: 60%;
+    /* background-color: cadetblue; */
 }
 
 .alcim {
@@ -432,8 +437,24 @@ width: 100%;
     }
 
     .thumbnail {
-        width: calc(0.1rem + 3.5vmin);
+        width: calc(0.1rem + 5.5vmin);
         height: calc(0.1rem + 4.5vmin);
+    }
+    
+    .button {
+        width: 14%;
+    }
+
+    .nyildoboz {
+        width: 19%;
+    }
+    
+    .nyil {
+        height: 70%;
+    }
+
+    .alcimdoboz {
+        width: 34%;
     }
     
 
@@ -449,10 +470,4 @@ width: 100%;
         margin-left: calc(0.1rem + 92.8vw);
     } */
     
-    .thumbnail {
-        /* height: calc(0.1rem + 5.0vw);
-        margin: calc(0.1rem + 0.7vw); */
-
-        width: calc(0.1rem + 6.0vw);
-    }
 }
