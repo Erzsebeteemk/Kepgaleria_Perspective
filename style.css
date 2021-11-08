@@ -37,6 +37,9 @@ main {
 
 /* H1 */
 h1 {
+
+    transition: transform 10s;
+
     height: 7%;
     font-size: calc(0.1rem + 5.0vmin);
     /* margin-top: 1.5rem; */
@@ -49,6 +52,11 @@ h1 {
     text-align: center;
     font-family: 'MonteCarlo', cursive;
 }
+
+h1:hover {
+    transform: rotate(360deg);
+}
+
 
 
 /* EGYMÁS MÓGÓTT */
@@ -173,7 +181,29 @@ transform: perspective(300px) rotatey(-45deg);
     /* background-color: darkseagreen; */
 }
 
+
 .kep {
+
+    animation: fade 3s;
+
+
+   /* ....................................... */
+        /* animation: fadein 2s;
+          opacity: 1;
+    
+    
+    @keyframes fadein {
+      from {
+          opacity: 0;
+      }
+      to {
+         opacity: 1;
+      }
+    }
+
+    transition-delay: 3s; */
+    /* ....................................... */
+
     height: 100%;
     /* max-width: 100%;
     text-align: center;
@@ -185,7 +215,14 @@ transform: perspective(300px) rotatey(-45deg);
     box-shadow: 0 30px 40px -20px rgba(0,0,0,0.5);
     /* background-color: dodgerblue; */
 }
+
+@keyframes fade {
+    from {opacity: 0}
+    to {opacity 1}
+}
+
 /* képdobozban kép vége */
+
 
 
 /* KEZELŐ */
@@ -214,6 +251,13 @@ width: 100%;
     border-radius: 18%;
     box-shadow: -1px 5px 4px 2px rgb(78, 78, 78);
 }
+
+.button:hover {
+    background: linear-gradient( 
+        rgba(159, 135, 126),
+        rgba(62, 125, 142));
+}
+
 
 .nyildoboz {
     display: flex;
@@ -245,6 +289,11 @@ width: 100%;
     /* background-color: rgb(255, 0, 0); */
 }
 
+.nyil:hover {
+    filter: invert(40%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(110%) contrast(40%);
+    transition: 1s;
+}
+
 .balra {
     right: 0;
     /* margin-left: calc(0.1rem + 5vw); */
@@ -264,9 +313,13 @@ width: 100%;
 
 .alcim {
     font-size: calc(0.1rem + 3.5vmin);
+    color: black;
+    transition: color 5s; 
 }
 
-
+.alcim:hover {
+    color: rosybrown;
+}
 
 .clicked {
     text-align: center;
