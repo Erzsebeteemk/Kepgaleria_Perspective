@@ -38,7 +38,7 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-origin: border-box;
-    background-attachment: scroll;
+    background-attachment: local;
     background-size: cover;
     
 
@@ -50,7 +50,7 @@ main {
 /* H1 */
 h1 {
 
-    transition: transform 10s;
+    transition: color 5s;
 
     height: 7%;
     font-size: calc(0.1rem + 5.0vmin);
@@ -66,7 +66,7 @@ h1 {
 }
 
 h1:hover {
-    transform: rotate(360deg);
+    color: white;
 }
 
 
@@ -196,7 +196,7 @@ transform: perspective(300px) rotatey(-45deg);
 
 .kep {
 
-    animation: fade 3s;
+    /* animation: fade 3s; */
 
 
    /* ....................................... */
@@ -228,10 +228,10 @@ transform: perspective(300px) rotatey(-45deg);
     /* background-color: dodgerblue; */
 }
 
-@keyframes fade {
+/* @keyframes fade {
     from {opacity: 0}
     to {opacity 1}
-}
+} */
 
 /* képdobozban kép vége */
 
@@ -239,8 +239,8 @@ transform: perspective(300px) rotatey(-45deg);
 
 /* KEZELŐ */
 #kezelo {
-height: 8%;
-width: 100%;
+    height: 8%;
+    width: 100%;
 
     display: flex;
     flex-direction: row;
@@ -267,7 +267,7 @@ width: 100%;
 .button:hover {
     background: linear-gradient( 
         rgba(159, 135, 126),
-        rgba(62, 125, 142));
+        rgb(20, 67, 80));
 }
 
 
@@ -326,11 +326,11 @@ width: 100%;
 .alcim {
     font-size: calc(0.1rem + 3.5vmin);
     color: black;
-    transition: color 5s; 
+    transition: color 5s;
 }
 
 .alcim:hover {
-    color: rosybrown;
+    color: rgb(180, 24, 24);
 }
 
 .clicked {
